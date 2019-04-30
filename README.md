@@ -13,3 +13,5 @@ faster than existing algorithms and requires lesser computation memory. To ident
 pertinent STRs, we also developed several filters which allow users to view required subset of STRs in 
 an easy-to-use manner. Thus, STRHunter, coupled with the filter options, accuracy and speed of computation 
 can play an important role for in-silico identification of STR loci in long DNA sequences. 
+******************************************************************************************
+Here we present an efficient algorithm, called STRHunter, based on k-mer decomposition approach to identify all STR loci present in a given DNA sequence, efficiently and accurately. STRHunter is several time faster than currently existing methods while being 100\% accurate, comprehensive and memory-efficient. Unlike most other methods, our algorithm does not miss overlapping repeats, and repeats that end in the middle of the motif. In addition, STRHunter can also detects flanking DNA of user specified length in both the 5' and 3' sides of STR loci.
